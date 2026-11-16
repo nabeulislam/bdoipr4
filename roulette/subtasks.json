@@ -1,0 +1,30 @@
+{
+  "global_validators": ["val.cpp"],
+  "subtasks": {
+    "samples": {
+      "index": 0,
+      "score": 0,
+      "validators": []
+    },
+    "sub1": {
+      "index": 1,
+      "score": 20,
+      "validators": ["val-sub1.cpp"]
+    },
+    "sub2": {
+      "index": 2,
+      "score": 20,
+      "validators": ["val-sub2.cpp"]
+    },
+    "sub3": {
+      "index": 3,
+      "score": 25,
+      "validators": ["val-sub3.cpp"]
+    },
+    "full": {
+      "index": 4,
+      "score": 35,
+      "validators": ["val.cpp"]
+    }
+  }
+}
